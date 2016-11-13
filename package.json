@@ -1,0 +1,18 @@
+{
+  "name": "alexsomai.github.io",
+  "version": "1.0.0",
+  "homepage": "https://github.com/alexsomai/alexsomai.github.io#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexsomai/alexsomai.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsomai/alexsomai.github.io.git"
+  },
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve",
+    "test": "bundle exec htmlproofer ./_site"
+  }
+}
