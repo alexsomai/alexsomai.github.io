@@ -10,7 +10,8 @@ description: A blog about technology and stuff related
 external-image: false
 picture: assets/images/profile.jpg
 
-url: https://alexsomai.github.io
+url: https://alexsomai.com
+enforce_ssl: alexsomai.com
 
 permalink: /blog/:title/
 
