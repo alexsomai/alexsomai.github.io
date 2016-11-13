@@ -1,3 +1,3 @@
 # Alexandru Somai
 
-My personal web space http://alexsomai.com :smile:
+My personal web space https://alexsomai.com :smile:
