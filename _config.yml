@@ -15,6 +15,9 @@ enforce_ssl: alexsomai.com
 
 permalink: /blog/:title/
 
+# if you have a custom blog url, this will override the default /blog
+blog_url: https://medium.com/alexsomai-space
+
 markdown: kramdown
 highlighter: rouge
 
@@ -41,12 +44,12 @@ github: alexsomai
 #stackoverflow: 7044681/mystackoverflow
 #quora: userquora
 #reddit: username
-#medium: medium
+medium: alexsomai
 #vimeo: myvimeo
 email: somai.alexandru@gmail.com
 
 authors:
-    johndoe:
+    alexsomai:
         name: Alexandru Somai
         bio: Software developer on a continuous learning journey
         external-image: false
@@ -68,7 +71,7 @@ projects: false
 # if you don't need "about" or "blog", comment them out below
 # don't forget to rename about.temp to about.md and blog/index.temp to blog/index.html
 about: false
-blog: false
+blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -96,10 +99,10 @@ gems:
   - jemoji
   - jekyll-mentions
   - jekyll-seo-tag
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
+#  - jekyll-feed
 
 jekyll-mentions:
     base_url: https://github.com

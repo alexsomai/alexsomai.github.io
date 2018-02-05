@@ -9,7 +9,11 @@
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
+                    {% if site.blog_url %}
+                        <a class="link" href="{{ site.blog_url }}" target="_blank">Blog</a>
+                    {% else %}
+                        <a class="link" href="{{ site.url }}/blog">Blog</a>
+                    {% endif %}
                 </li>
             {% endif %}
         {% endif %}
