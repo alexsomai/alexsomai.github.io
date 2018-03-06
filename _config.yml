@@ -16,7 +16,7 @@ enforce_ssl: alexsomai.com
 permalink: /blog/:title/
 
 # if you have a custom blog url, this will override the default /blog
-blog_url: https://medium.com/alexsomai-space
+blog_url: https://medium.com/coders-do-read
 
 markdown: kramdown
 highlighter: rouge
