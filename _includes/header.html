@@ -12,12 +12,16 @@ or page.title == "Tags"
     </a>
     {% else %}
     <span class="link">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </span>
+        <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}"/>
+    </span>
     {% endif %}
 
     <h1 class="title">{{ site.name }}</h1>
     <h2 class="description">{{ site.bio }}</h2>
+
+    <a class="link" href="http://bcert.me/suysfpmcz" target="_blank">
+        <img class="certification" src="/assets/images/spring-certification-badge.png"/>
+    </a>
 
     {% include social-links.html %}
 </header>
