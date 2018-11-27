@@ -16,12 +16,17 @@ or page.title == "Tags"
     </span>
     {% endif %}
 
+    <div>👋Hi! I'm</div>
     <h1 class="title">{{ site.name }}</h1>
-    <h2 class="description">{{ site.bio }}</h2>
+    <h2 id="type-it" class="description">{{ site.bio }}</h2>
 
-    <a class="link" href="http://bcert.me/suysfpmcz" target="_blank">
-        <img class="certification" src="/assets/images/spring-certification-badge.png"/>
-    </a>
+    <script type="text/javascript">
+        new TypeIt('#type-it', {
+            speed: 100,
+            startDelay: 500,
+            loop: true
+        });
+    </script>
 
     {% include social-links.html %}
 </header>
