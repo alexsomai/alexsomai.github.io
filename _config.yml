@@ -1,6 +1,6 @@
 # main text of home
 name: Alexandru Somai
-bio: Software developer. Striving for perfection. On a continuous learning journey.
+bio: Software Developer
 
 # twitter summary info
 description: My personal web space  
@@ -51,7 +51,7 @@ email: somai.alexandru@gmail.com
 authors:
     alexsomai:
         name: Alexandru Somai
-        bio: Software developer on a continuous learning journey
+        bio: Software Developer
         external-image: false
         picture: assets/images/profile.jpg
         twitter: alex_somai
