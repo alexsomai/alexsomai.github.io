@@ -8,15 +8,15 @@ or page.title == "Tags"
 <header class="header-home {% if site.animation %}animated{% endif %}">
     {% if site.about %}
     <a class="link" href="{{ site.url }}/about">
-        <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+        <img title="profile" class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
     </a>
     {% else %}
     <span class="link">
-        <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}"/>
+        <img title="profile" class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}"/>
     </span>
     {% endif %}
 
-    <div>👋Hi! I'm</div>
+    <div>👋 Hi! I'm</div>
     <h1 class="title">{{ site.name }}</h1>
     <h2 id="type-it" class="description">{{ site.bio }}</h2>
 

@@ -2,8 +2,9 @@
 name: Alexandru Somai
 bio: Software Developer
 
-# twitter summary info
-description: Alexandru Somai - Software Developer
+# SEO title and meta description
+title: Alexandru Somai - Software Developer
+description: Experienced Software Engineer with a demonstrated history of working in the entertainment and financial industry. Skilled in Java, Spring Framework, Hibernate, Groovy, Maven and comfortable with JavaScript frameworks React and Redux.
 
 # if it's an external image, update below for true
 # better with square images
