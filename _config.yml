@@ -103,7 +103,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
-#  - jekyll-feed
+#   - jekyll-feed
 
 jekyll-mentions:
     base_url: https://github.com
