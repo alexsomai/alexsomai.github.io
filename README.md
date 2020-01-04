@@ -1,6 +1,6 @@
 # Alexandru Somai
 
-My personal web space https://alexsomai.com :smile:
+My personal web space https://alexsomai.com
 
 ### Run locally
 
