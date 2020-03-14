@@ -4,4 +4,8 @@ My personal web space https://alexsomai.com
 
 ### Run locally
 
-https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll
+```
+bundle exec jekyll serve
+```
+
+* [Help](https://help.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll#building-your-site-locally)
